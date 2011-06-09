@@ -1,0 +1,15 @@
+	$sketch: ChangeLog,v 1.1 2003/03/04 19:03:46 sketch Exp $
+
+2003-03-04  Jonathan Perkin  <jonathan@perkin.org.uk>
+
+  * Version 0.1
+
+  * API now supports talker and IRC clients, with some basic functionality
+    needed to connect and stay on, along with some almost-complete message
+    parsers.  Messages are security checked against sane string matches.
+
+  * Add README/COPYRIGHT/install.rb files useful for a tarball.
+
+  * Add this file to track changes.
+
+  * Tag natter-0-1

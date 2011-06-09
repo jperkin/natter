@@ -1,0 +1,43 @@
+	$sketch: README,v 1.1 2003/03/04 18:33:13 sketch Exp $
+
+			natter - a ruby chat API.
+			=========================
+About:
+
+	natter is a set of ruby APIs which make it easy for someone to write
+	clients (and eventually servers) to interface with popular online chat
+	systems.  It currently supports IRC (primarily RFC1459, but some
+	RFC2812 support) and the NILEX style of talker systems.
+
+Usage:
+
+	examples/ircbot.rb and examples/talkerbot.rb show how easy it is to
+	use, and how with a relatively small amount of code you can get a
+	client up and running (although at the moment it probably won't be
+	able to do much :-)
+
+Install:
+
+	% ruby install.rb config
+	# ruby install.rb install
+
+Links:
+
+	Homepage	- http://www.perkin.org.uk/projects/natter/
+
+	RAA entry	- http://raa.ruby-lang.org/list.rhtml?name=natter
+
+	Email		- Jonathan Perkin <jonathan@perkin.org.uk>
+
+Copyright:
+
+	natter is distributed under a Public Domain licence.  If you find it
+	useful or helpful in any way, then that's more than enough for me.  If
+	you like it enough to buy me beer, then that is even better.  If you
+	take the code, remove my header, and use it in a commercial project,
+	then I'll be chuffed (and get less spam).  I get enough enjoyment out
+	of coding this for myself - anything else is a bonus.  I don't believe
+	the silly notion that someone can "steal" my code, unless of course
+	they break in to my house and steal my NetBSD box...
+
+	install.rb is distributed under the LGPL.
